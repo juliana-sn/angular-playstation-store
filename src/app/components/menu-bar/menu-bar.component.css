@@ -1,0 +1,80 @@
+.menu-container{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100px;
+}
+
+.menu-sony{
+	width: 100%;
+	height: 30px;
+	z-index: 999;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 5px;
+}
+
+.menu-ps{
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	z-index: 998;
+	top:0;
+	background-color: #ffff;
+	width: 100%;
+	height: 100px;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+
+.menu-logo{
+	padding-top: 30px;
+	margin-left: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.menu-logo > img{
+	margin-right: 4px;
+	align-items: center;
+}
+
+.menu-itens{
+	padding-top: 30px;
+	display: flex;
+	margin: auto;
+	align-items: center;
+}
+
+.menu-itens > ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.menu-itens > ul > li{
+	margin-right: 15px;
+	padding: 5px;
+}
+
+.menu-itens > ul > li > a{
+	text-decoration: none;
+	padding: 5px;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 20px;
+	color: black;
+}
+
+#select{
+	border: 2px solid grey;
+	background-color: rgb(211, 211, 211, 0.5);
+	border-radius: 20px;
+}
+
+.menu-itens > ul > li > a:hover{
+	color:blue;
+	font-weight: 500;
+}
+
+
+

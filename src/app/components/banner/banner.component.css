@@ -1,0 +1,19 @@
+.banner-container{
+	border: 3px solid #3E4357;
+	border-radius: 10px;
+	width:350px;
+	height: 350px;
+
+	display: flex;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+.banner-container > img {
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.banner-container:hover{
+	opacity: 0.8;
+}

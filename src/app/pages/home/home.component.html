@@ -1,1 +1,31 @@
-<app-card></app-card>
+<div class="home-container">
+	<div class="banner">
+		<app-banner *ngFor="let b of imagesB;"
+		imageBanner="{{ b }}"></app-banner>
+	</div>
+
+	<h1>Ofertas</h1>
+	<div class="card">
+	<app-card *ngFor="let g of games"
+	gameImage="{{ g.image }}"
+	gameName="{{ g.name }}"
+	gamePercentage="{{g.percentage}}"
+	gameLabel="{{ g.label }}"
+	gamePrice="{{g.price}}"
+	gamePriceBefore="{{g.priceBefore}}"
+	></app-card>
+
+	</div>
+
+	<div class="category">
+		<app-category *ngFor="let c of imagesC"
+		imageCategory="{{ c }}"></app-category>
+
+	</div>
+
+	<app-footer class="footer"></app-footer>
+</div>
+
+
+
+

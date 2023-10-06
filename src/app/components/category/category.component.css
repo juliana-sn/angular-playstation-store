@@ -1,0 +1,18 @@
+.category-container{
+	width: 350px;
+	height: 350px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.category-container > a > img {
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.category-container:hover{
+	opacity: 0.8;
+}

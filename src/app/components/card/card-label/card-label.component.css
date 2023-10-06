@@ -1,0 +1,25 @@
+.label-container{
+	position: absolute;
+	bottom: 155px;
+	left: 0;
+}
+
+.label-content{
+	display: flex;
+	color: #ffff;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: bold;
+	gap: 15px;
+}
+
+.label-content > p{
+	border: 1px solid white;
+	background-color: #0d0d0d50;
+	height: 30px;
+	padding: 0 10px;
+	font-size: 12px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
