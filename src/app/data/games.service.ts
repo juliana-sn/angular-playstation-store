@@ -51,8 +51,8 @@ export class GamesService {
 			name:"Marvel's Spider-Man: Miles Morales PS4 & PS5",
 			label:"PS4 | PS5",
 			percentage:"10%",
-			priceBefore:"R$224,55",
-			price:"R$249,50",
+			priceBefore:"R$249,50",
+			price:"R$224,55",
 		}
 	]
 
